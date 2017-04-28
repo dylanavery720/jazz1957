@@ -72,21 +72,22 @@ img {
 
 i {
   position: relative;
-  margin: 15px;
 }
 
 #admin {
   float: right;
   color: lightblue;
-  margin-right: 40px;
+  margin: 40px;
 }
 
 #act {
   color: lightgray;
+   margin: 15px;
 }
 
 #inact {
   color: darkgray;
+   margin: 15px;
 }
 
 h1 {
@@ -109,12 +110,35 @@ h3 {
   margin: 15px;
   background: lightgray;
   word-wrap: break-word;
+  padding: 1px;
 }
 
 .number-display {
   color: #161032;
   font-size: 42px;
   margin-left: 15px;
+}
+
+#pic-box div{
+   z-index: 9999;
+   position: fixed;
+   margin: 280px 250px 0px;
+   color: lightgray;
+}
+
+button {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: white;
+    border: 2px solid #fff;
+    color: black;
+    border-radius: 50%;
+    outline: none;
+    bottom: 0;
+    position: absolute;
+    margin-left: 10px;
+    margin-bottom: 90px;
 }
 
 @font-face {
